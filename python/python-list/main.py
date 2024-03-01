@@ -1,4 +1,26 @@
-# Single line list
+#  0 # Single line list
+  1 fruits = ["apple", "banana", "cherry"]
+  2
+  3 # Multi-line list for readability
+  4 numbers = [
+  5     1,
+  6     2,
+  7     3,
+  8     4,
+  9     5,
+ 10 ]
+ 11
+ 12 # Mixed data type list
+ 13 mixed_list = ["hello", 3.14, True]
+ 14
+ 15 print(f"First fruit: {fruits[0]}")  # Output: First fruit: apple
+ 16 print(f"Second number: {numbers[1]}")  # Output: Second number: 2
+ 17
+ 18 # Modifying List
+ 19 fruits.append("orange")  # fruits will now be ["apple", "banana", "cherry",     "orange"]
+ 20 fruits.insert(1, "grape")  # fruits will now be ["apple", "grape", "banana",     "cherry", "orange"]
+ NORMAL   main  main.py                  utf-8     python  Top    1:1
+ Single line list
 fruits = ["apple", "banana", "cherry"]
 
 # Multi-line list for readability
